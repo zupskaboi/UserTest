@@ -1,0 +1,9 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<table>
+     @foreach (UserModel userModel in @Model)
+     {
+         <tr>@userModel.Name</tr>
+     }
+</table>
